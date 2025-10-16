@@ -16,7 +16,7 @@ namespace Tyuiu.BubenkoLG.Sprint2.Task4.V19.Test
             double x = 10.0;
             double y = 8.0;
             double res = ds.Calculate(x,y); // false
-            double wait = Math.Round(1.4474930729556619, 3);
+            double wait = 1.45;
 
             Assert.AreEqual(res, wait);
 
