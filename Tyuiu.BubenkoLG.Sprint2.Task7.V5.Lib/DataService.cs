@@ -12,7 +12,7 @@ namespace Tyuiu.BubenkoLG.Sprint2.Task7.V5.Lib
     {
         public bool CheckDotInShadedArea(double x, double y)
         {
-            if ((y >= x * x) && (y <= Math.Exp(x)) && (x >= Math.Exp(y)))
+            if ((y <= Math.Exp(x)) && (y >= x * x) && (x <= Math.Exp(y)))
             {
                 return true;
             }
